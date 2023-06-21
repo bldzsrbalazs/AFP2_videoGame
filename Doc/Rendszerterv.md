@@ -11,3 +11,19 @@ A weblap teljes mértékben ingyenes lesz, nincs semmi tartalom vagy extra funkc
 ### Projekttmunkások és felelősségek:
   * Backend munkálatok: Boldizsár Balázs
   * Frontend munkálatok: Boldizsár Balázs
+
+### Feladatuk: 
+- adatbázis létrehozása az adatok tárolásához
+- megfelelő funkciók elkészítése az oldal megfelelő működésének érdekében
+- felhasználói felület kialakítása
+- felhasználókezelés alkalmazása.
+
+### Ütemterv:
+ - 06.15 Követelmény specifikáció 
+ - 06.15 Funkcionális specifikáció
+ - 06.15 Rendszerterv
+ - 06.21 Adatbázis kialakítása
+ - 06.21 Felhasználókezelés megvalósítása
+ - 06.21 Backend funkciók elkészítése
+ - 06.21 Frontend design megtervezése
+ - 06.21 Felhasználói felület kialakítása
