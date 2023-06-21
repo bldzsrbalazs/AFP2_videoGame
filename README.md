@@ -1,5 +1,4 @@
 # AFP2_videoGame
-AFP2_videoGame
 A weboldal célja, hogy egy olyan működő weboldalt hozzak létre, ahol a felhasználók a már kijátszott játékokat be tudják jelölni a listából.
 Van 3 jogosultság spectator, user és admin
 A spectator csak meg tudja nézni, hogy milyen játékokat töltöttek fel.
