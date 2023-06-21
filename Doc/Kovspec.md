@@ -46,8 +46,28 @@ Opensource szoftver. Bárki által letölthető és felhasználható. Az érték
 
 ## 6. Jelenlegi üzleti folyamatok modellje
 
+6.1 A játékok és cégek adatainak nyilvántartása
+        6.1.1 Új kijátszott játék rögzítése
+                - Regisztrált felhasználó végzi
+                - Kijátszott játék rendszerbe való rögzítése
+        6.1.2 Kijátszott játék törlése
+                - Regisztrált felhasználó végzi
+                - Kijátszott játék törlése a rendszerből
+        6.1.3 Játékok kedvencekbe adása
+                - Regisztrált felhasználó végzi
+                - A játékok kedvencek listába adása
+        6.1.4 Játékok kedvencek törlése
+                - Regisztrált felhasználó végzi
+                - A játékok törlése a kedvencek listából
+        6.1.5 Cégek kedvencekbe adása
+                - Regisztrált felhasználó végzi
+                - A cégek kedvencek listába adása
+        6.1.6 Cégek kedvencek törlése
+                - Regisztrált felhasználó végzi
+                - A cégek törlése a kedvencek listából
 
 ## 7. Igényelt üzleti folyamatok modellje
+
     7.1 Bejelentkezés
         7.1.1 Játékok
                 7.1.1.1 Új kijátszott játék rögzítése
