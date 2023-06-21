@@ -31,3 +31,22 @@ A weblap teljes mértékben ingyenes lesz, nincs semmi tartalom vagy extra funkc
 ## 3. Üzleti folyamatok modellje
 
 ![Üzleti folyamatok modellje](../Doc/Pictures/business_model.png)
+
+## 4. Követelmények
+
+**Funkcionális követelmények**
+  - **Felhasználók adatainak tárolása**
+  - **Felhasználók tudják változtatni adataikat**
+  - **Felhasználók kijátszott játékainak tárolása**
+  - **Játékok tárolása**
+  - **Cégek tárolása**
+  - **Játékokhoz tartozó adatok tárolása**
+  - **Cégekhez tartozó adatok tárolása**
+  - **Adminisztrátor tudja szerkeszteni a tárgyak adatait és a felhasználók adatait**
+
+  **Nem funkcionális követelmények**
+  - **A felhasználók nem férnek hozzá egymás adataihoz**
+  - **A felhasználók nem férnek hozzá az admin felülethet**
+
+  **Törvényi előírások, szabványok:**
+  - **GDPR-nek való megfelelés**
