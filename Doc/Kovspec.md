@@ -88,6 +88,16 @@ Opensource szoftver. Bárki által letölthető és felhasználható. Az érték
 
 ## 8. Követelménylista
 
+Modul | ID | Név | Kifejtés
+--- | --- | --- | ----------------------------------------------------------------------
+Jogosultság | K1 | Bejelentkezési felület | A felhasználó a felhasználónevével és jelszava segítségével jelentkezhet be. Nem megfelelő felhasználónév vagy jelszó esetén, a felhasználó hibaüzenetet kap.
+Jogosultság | K2 | Regisztrációs felület | A felhasználó felhasználónév, e-mail cím és jelszó megadásával regisztrálhatja magát. A jelszó tárolása titkosított formában történik az adatbázisban. Bármely adat hiánya vagy a követelményeknek való nem megfelelése esetén, a felhasználó hibaüzenetet kap.
+Jogosultság | K3 | Jogosultsági szintek | -Admin: Teljes hozzáférése van a weboldalhoz, szerkesztheti, kilistázhatja és törölheti a felhasználók adatait is. <br> -Felhasználó: Tud a személyes listájába új kijátszott játékokat rögzíteni illetve játékokat tud kedvencekbe adni, tud kedvencekből törölni, tudja a kijátszott játékait módosítani. <br> -Vendég: Csak egy betekintő áll rendelkezésére amikor megnyitja a weblapot és ki tudja listázni a játékok és cégek listáját.
+Felület | K4 | Felhasználók listája | Admin jogosultsággal megtekinthető és megváltoztatható a felhasználók felhasználóneve, e-mail címe és jogosultsági szintje.
+Felület | K5 | Játékok | Admin jogosultsággal lehet játékokat felvenni és törölni az adatbázisból.
+Felület | K6 | Játékok | Felhasználó jogosultsággal lehet játékokat felvenni és törölni az kijátszott játékok listából.
+Felület | K7 | Cégek | Regisztrált felhasználó tud kedvencekbe adni cégeket és törölni onnan.
+Felület | K8 | Cégek | Admin jogosultsággal lehet cégeket felvenni és törölni az adatbázisból.
 
 ## 9. Fogalomtár
 
