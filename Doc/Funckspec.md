@@ -29,3 +29,21 @@ Ezt megragadva kérte, hogy készítsünk el egy olyan weblapot, ahol bármikor 
 
 ![Jelenlegi üzleti folyamatok modellje](../Doc/Pictures/functional_specifications_4.png)
 
+## 5. Igényelt üzleti folyamatok modellje
+    5.1 Bejelentkezés
+        5.1.1 Játékok
+                5.1.1.1 Új kijátszott játék rögzítése
+                5.1.1.2 Játékok listázása
+                5.1.1.3 Kijátszott játékok listázása
+        5.1.2 Játékok
+                5.1.2.1 Cégek listáázsa
+                5.1.2.2 Cégekhez való játékok listázása
+        Admin joggal rendelkezőknek:
+        5.1.3 Felhasználók szerkesztése
+        5.1.4 Felhasználók listázása
+        5.1.5 Felhasználók törlése
+        5.1.6 Új játékok feltöltése
+        5.1.7 Cégek feltöltése
+        5.1.8 Játékok és cégek módosítása
+        5.1.9 Kijelentkezés
+    5.2 Regisztráció
