@@ -16,6 +16,10 @@ Bejelentkezünk és újra láthatjuk, módosíthatjuk, törölhetjük csodás j�
 
 ## 3. Vágyálom rendszer 
 
+A projekt célja egy olyan felület biztosítása, ahol sokkal könnyebb elérni a kijátszott játékaid. A projekt csak webes felülettel rendelkezzen. Regisztráció nélkül csak a regisztáló felülettel rendelkezzen, ahol ha már regisztált valaki akkor be is tudjon jelentkezni.
+Miután létrehozta fiókját a felhasználó és bejelentkezett utána elérhetővé válnak a különböző opciók. Képes a játékok listázására, kijátszottakhoz adásához, kijátszottak listából törlésére. Hozzáfér a további felhasználókhoz és azoknak a kijátszott játékok listájához.
+A weblap maga egy letisztult oldal, könnyen kezelhető, mindenki számára egyértelmű működéssel bírjon. A játék feltöltése esetben szükséges megadni a nevét, cégnevét.
+Szükség van egy magasabb szintű felhasználóra is, aki rendelkezik jogusoltságokkal a fiókok módosításához, játékok törléséhez, módosításához, cégek hozzáadásához és módosításához.
 
 ## 4. Funkcionális követelmények
 
