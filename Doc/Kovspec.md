@@ -42,6 +42,7 @@ Szükség van egy magasabb szintű felhasználóra is, aki rendelkezik jogusolts
 
 ## 5. Rendszerre vonatkozó törvények, szabványok, ajánlások
 
+Opensource szoftver. Bárki által letölthető és felhasználható. Az értékesítése nem megengedett!
 
 ## 6. Jelenlegi üzleti folyamatok modellje
 
