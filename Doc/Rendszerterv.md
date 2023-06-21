@@ -50,3 +50,47 @@ A weblap teljes mértékben ingyenes lesz, nincs semmi tartalom vagy extra funkc
 
   **Törvényi előírások, szabványok:**
   - **GDPR-nek való megfelelés**
+
+## 5. Funkcionális terv
+
+**Rendszerszereplők:**
+  - **Adminisztrátor**
+  - **Felhasználó**
+  - **Vendég**
+
+  **Rendszerhasználati esetek és lefutásaik:**
+  - **Adminisztrátor**
+    - **Képes felhasználókat törölni**
+    - **Tudja módosítani a felhasználók jelszavát és adatait is**
+    - **Látja az összes regisztrált felhasználót**
+    - **Módosítani tudja a játékokat és cégeket, azok adatait**
+    - **Teljes hozzáférése van a rendszerhez**
+  - **Felhasználó**
+    - **Megtekintheti a játékokat**
+    - **Megtekintheti a cégeket**
+    - **Megtekintheti az kijátszott játékait**
+    - **Felvehet új játékoat a kijátszottak közé**
+    - **Felvehet kedvencek közé játékokat és cégeket**
+    - **Kijátszott játékokat tudja törölni**
+    - **Módosíthatja a saját adatait**
+    - **Módosíthatja jelszavát**
+  - **Vendég**
+    - **Láthatja a játékok és cégek listáját**
+    - **Képes regisztrálni és bejelentkezni**
+
+  - **Menü-hierarchiák:**
+    - **Játékok**
+    - **Cégek**
+    - **Bejelentkezés**
+    - **Regisztráció**
+
+    - **Bejelentkezés után:**
+      - **Felhasználók listája:** kizárólag admin joggal rendelkező felhasználóknak
+        - **Felhasználó adatainak módosítása**
+        - **Felhasználók törlése**
+
+      - **Profil**
+      - **Kijátszott játékaim**
+      - **Kedvenc játékaim**
+    - **Kedvenc cégeim**
+      - **Kijelentkezés**
