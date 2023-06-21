@@ -9,3 +9,18 @@ A teret egy online játék listázó formájában szeretné megvalósítani.
 Azt szeretné, hogy a játék adatbázist egy helyre gyűjtenék össze, ezzel megspórolva a sok-sok keresést és tárolni tudják a kijátszott játékoka és a játékokhoz kapcsolódó tulajdonságokat
 Lehetőséget akar biztosítani, hogy az felhasználók minden publikus információt megtudjanak a játékokról, segítve ezzel a minél szélesebb információ elmélyítését. A megrendelő felismerte azt, hogy manapság az embereknek szinte mindig van internetelérésük és eszközük ennek használatára.
 Ezt megragadva kérte, hogy készítsünk el egy olyan weblapot, ahol bármikor megtekinthetik a számítógépes játékokat és azoknak az információit, cégneveket az egyes játékokhoz.
+
+## 3. Követelménylista
+
+1. Bejelentkezési felület:
+ * A felhasználók ezen a felületen tudnak bejelentkezni a weboldalra a bővebb elérhetőség érdekében.
+2. Regisztrációs felület:
+ * A felhasználók ezen a felületen tudnak beregisztrálni a weboldalra.
+3. Játékok menüpont:
+ * A felhasználók itt érik el a bővebb funkciókat
+ * Meg tudják tekinteni a játékokat, és hozzá tudják adni a már kijátszottak közé
+ * Tudják törölni a kijátszott listájukból
+4. Jogosultságok:
+ * Admin: Teljes hozzáférése van a weboldalhoz, szerkesztheti, kilistázhatja és törölheti a felhasználók adatait is.
+ * Felhasználó: Tud a játékok fülön hozzáadni kijátszott játékokat, tudja listázni a profilját.
+ * Vendég: Csak egy betekintő áll rendelkezésére amikor megnyitja a weblapot.
