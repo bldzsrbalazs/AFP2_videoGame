@@ -1,5 +1,9 @@
 ## 1. Áttekintés
 
+A rendszer egy videójáték weboldalt valósít meg, ahol a felhasználók saját, meg tudják tekinteni a már kijátszott játékaikat, így nyomon követve azt, hogy mi amit ki kell még játszaniuk.
+A rendszert teljes mértékben online formában kell megvalósítani, weblap keretében. 
+A weblap teljes értékű kihasználásához szüksége lesz a felhasználónak regisztrálni. 
+Regisztráció nélkül semmilyen funkciót nem ér el, számára csak betekintő áll rendelkezésre illetve a játékok és cégek listázása.
 
 ## 2. Jelenlegi helyzet
 
