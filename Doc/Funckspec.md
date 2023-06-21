@@ -47,3 +47,20 @@ Ezt megragadva kérte, hogy készítsünk el egy olyan weblapot, ahol bármikor 
         5.1.8 Játékok és cégek módosítása
         5.1.9 Kijelentkezés
     5.2 Regisztráció
+
+## 6. Használati esetek
+
+- **Admin**
+  - **Hozzáfér a felhasználók listájához**
+    - **Tartalma:**
+    - **Felhasználónév**
+    - **E-mail cím**
+    - **Jogkör**
+  - **Felhasználó adatainak szerkesztése**
+  - **Felhasználó adatainak törlése**
+- **Felhasználó**
+  - **Saját kijátszott játékok megtekintés**
+    - **Kijátszott játékok felvétele**
+    - **Játékok megjelenítése**
+    - **Cégek megjelenítése**
+    - **Kijátszott játékok törlése**
