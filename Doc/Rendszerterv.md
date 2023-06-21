@@ -94,3 +94,17 @@ A weblap teljes mértékben ingyenes lesz, nincs semmi tartalom vagy extra funkc
       - **Kedvenc játékaim**
     - **Kedvenc cégeim**
       - **Kijelentkezés**
+
+## 6. Fizikai környezet
+
+- **Az alkalmazás csak web platformra készül, lokális szerveren, MySQL adatbázissal lesz futtatva.**
+  - **Nincsenek megvásárolt komponensek.**
+  - **Fejlesztői eszközök:**
+    - **Visual Studio Code**
+    - **Notepad++**
+    - **Sublime text 3**
+    - **MySQL Workbench**
+
+## 7. Architekturális terv
+
+A rendszer tökéletes működéséhez szükség van egy adatbázis szerverre, ebben az esetben MySql-t használunk. A bootstrap mint CSS keretrendszer felel a reszponzív webdesign-ért. A backend Laravel-el lett megvalósítva.
