@@ -27,7 +27,7 @@ Ezt megragadva kérte, hogy készítsünk el egy olyan weblapot, ahol bármikor 
 
  ## 4. Jelenlegi üzleti folyamatok modellje
 
-![Jelenlegi üzleti folyamatok modellje](../Doc/Pictures/functional_specifications_4.png)
+![Jelenlegi üzleti folyamatok modellje](../Doc/Pictures/functional_specification_4.png)
 
 ## 5. Igényelt üzleti folyamatok modellje
     5.1 Bejelentkezés
