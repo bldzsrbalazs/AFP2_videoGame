@@ -7,6 +7,12 @@ Regisztráció nélkül semmilyen funkciót nem ér el, számára csak betekint�
 
 ## 2. Jelenlegi helyzet
 
+Jelenleg a számítógépes játékoknak fontos szerepe van az életben. Szinte már mindenkinek van okostelefonja és számítógépe otthon. 
+Ezek mellett pedig az internet az, ami körbe vesz minket. Manapság már nem meglepő az, ha van mobilinternete egyeseknek, sőt lassan már az lenne a meglepő, ha nem lenne. 
+Vannak akik telefonos alkalmazásokban tárolják a kijátszott játékokat, esetleg excel táblában viszont mi történik ha elromlik a telefonjuk és nem kapcsol be?
+(Az esetek nagy részében ezek az alkalmazások nem rendelkeznek felhő alapú adatmentéssel mentéssel ha az alkalmazás ingyenes verzióját használjuk.) 
+Muszáj támogatnunk azokat, akik ebbe a problémába estek, így úgy gondoltuk, hogy csinálunk egy weboldalt, ahol minden egyes ember be tud regisztrálni és fel tudja tölteni az adatbázisba, milyen játékokat játszott eddig ki. Leülünk egy számítógéphez és betöltjük a weboldalt. 
+Bejelentkezünk és újra láthatjuk, módosíthatjuk, törölhetjük csodás játékainkat amit kijátszottunk.
 
 ## 3. Vágyálom rendszer 
 
