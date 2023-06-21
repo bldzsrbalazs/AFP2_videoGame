@@ -23,6 +23,22 @@ Szükség van egy magasabb szintű felhasználóra is, aki rendelkezik jogusolts
 
 ## 4. Funkcionális követelmények
 
+1. Bejelentkezési felület:
+ * A felhasználók ezen a felületen tudnak bejelentkezni a weboldalra a bővebb elérhetőség érdekében.
+2. Regisztrációs felület:
+ * A felhasználók ezen a felületen tudnak beregisztrálni a weboldalra.
+3. Játékok:
+ * A felhasználók itt érik el a bővebb funkciókat
+ * Új játékokat tudnak felvenni a kijátszottak lista közé.
+ * Meglévő kijátszott játékokat tudnak törölni a profiljukból.
+ * Ugyanitt valósul meg az kijátszott játékok listázása is
+4. Cégek:
+ * Megtekinthetik itt a felhasználó a cégeket és a kedvenceik közé rakhatják azt
+ * Kedvencek törléséből is itt történik
+5. Jogosultságok:
+ * Admin: Teljes hozzáférése van a weboldalhoz, szerkesztheti, kilistázhatja és törölheti a felhasználók adatait is.
+ * Felhasználó: Tud a személyes kijátszott játékok listába új játékokat rögzíteni, tud kijátszott játékokat törölni, tud listázni játékokat, tud listázni cégeket, megtekintheti a kijátszott játékait..
+ * Vendég: Csak egy betekintő áll rendelkezésére amikor megnyitja a weblapot és megtekintheti a játékok és cégek listáját.
 
 ## 5. Rendszerre vonatkozó törvények, szabványok, ajánlások
 
