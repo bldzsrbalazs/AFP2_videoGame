@@ -24,3 +24,8 @@ Ezt megragadva kérte, hogy készítsünk el egy olyan weblapot, ahol bármikor 
  * Admin: Teljes hozzáférése van a weboldalhoz, szerkesztheti, kilistázhatja és törölheti a felhasználók adatait is.
  * Felhasználó: Tud a játékok fülön hozzáadni kijátszott játékokat, tudja listázni a profilját.
  * Vendég: Csak egy betekintő áll rendelkezésére amikor megnyitja a weblapot.
+
+ ## 4. Jelenlegi üzleti folyamatok modellje
+
+![Jelenlegi üzleti folyamatok modellje](../Doc/Pictures/functional_specifications_4.png)
+
