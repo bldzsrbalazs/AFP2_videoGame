@@ -27,3 +27,7 @@ A weblap teljes mértékben ingyenes lesz, nincs semmi tartalom vagy extra funkc
  - 06.21 Backend funkciók elkészítése
  - 06.21 Frontend design megtervezése
  - 06.21 Felhasználói felület kialakítása
+
+## 3. Üzleti folyamatok modellje
+
+![Üzleti folyamatok modellje](../Doc/Pictures/business_model.png)
