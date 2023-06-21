@@ -17,7 +17,23 @@
 
 
 ## 7. Igényelt üzleti folyamatok modellje
-
+    7.1 Bejelentkezés
+        7.1.1 Játékok
+                7.1.1.1 Új kijátszott játék rögzítése
+                7.1.1.2 Játékok listázása
+                7.1.1.3 Kijátszott játékok listázása
+        7.1.2 Játékok
+                7.1.2.1 Cégek listáázsa
+                7.1.2.2 Cégekhez való játékok listázása
+        Admin joggal rendelkezőknek:
+        7.1.3 Felhasználók szerkesztése
+        7.1.4 Felhasználók listázása
+        7.1.5 Felhasználók törlése
+        7.1.6 Új játékok feltöltése
+        7.1.7 Cégek feltöltése
+        7.1.8 Játékok és cégek módosítása
+        7.1.9 Kijelentkezés
+    7.2 Regisztráció
 
 ## 8. Követelménylista
 
