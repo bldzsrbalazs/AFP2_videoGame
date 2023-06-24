@@ -30,30 +30,26 @@
                     </button>
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item" href="">See all</a></li>
-
-                            <li> <a href="" class="dropdown-item ">  </a> </li>
+                            @foreach ($topics as $topic)
+                            <li> <a href="{{ route("home") }}" class="dropdown-item">   {{ $topic->name }}</a> </li>
+                            @endforeach
 
                     </ul>
                 </div>
 
                 <div class="btn-group nav-link px-2 text-secondary">
-                    <button type="button" class="btn btn-secondary  dropdown-toggle" data-bs-toggle="dropdown"
-                        aria-expanded="false">
+                    <a href="{{ route("home") }}" class="btn btn-secondary" >
                         Companies
-                    </button>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="">See all</a></li>
-
-                            <li> <a href="" class="dropdown-item "> </a> </li>
-
-                    </ul>
+                    </a>
                 </div>
-                <div class="btn-group nav-link px-2 text-secondary">
-                    <button type="button" class="btn btn-secondary  dropdown-toggle" data-bs-toggle="dropdown"
-                        aria-expanded="false">
+                @auth
+                        <div class="btn-group nav-link px-2 text-secondary">
+                    <a class="btn btn-secondary " href="{{ route("home") }}">
                         Played games
-                    </button>
+                    </a>
                 </div>
+                @endauth
+
                 <!--------------------------------------------------------------------------------------------------------------------------------------->
 
 
@@ -74,8 +70,10 @@
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item {{ request()->routeIs('profile.show') ? ' active' : '' }}" href="{{route('profile.show',Auth::user()->id)}} ">{{__('Profile')}}</a></li>
                         <li><a class="dropdown-item {{ request()->routeIs('profile.setting') ? ' active' : '' }}" href="{{route('profile.show',Auth::user()->id)}}">{{__('Settings')}}</a></li>
-                        <li> <a href="{{ route('game.add') }}" class="dropdown-item {{ request()->routeIs('film.add') ? ' active' : '' }}">{{__('Add game')}}</a> </li>
-                        <li> <a href="{{ route('company.add') }}" class="dropdown-item {{ request()->routeIs('serie.add') ? ' active' : '' }}">{{__('Add company')}}</a> </li>
+                        <li> <a href="{{ route('home') }}" class="dropdown-item {{ request()->routeIs('home') ? ' active' : '' }}">{{__('Add game')}}</a> </li>
+                        <li> <a href="{{ route('home') }}" class="dropdown-item {{ request()->routeIs('home') ? ' active' : '' }}">{{__('Add company')}}</a> </li>
+
+
                         <li> <form method="post" action="{{ route('logout') }}"> @csrf <button class="dropdown-item ">{{__('Sign out')}}</button> </form> </li>
                     </ul>
                 </div>
