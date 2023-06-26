@@ -16,7 +16,35 @@ class gameTopicsTableSeeder extends Seeder
     {
         GameTopic::create([
             'game_id' => 1,
-            'category_id' => 1,
+            'topic_id' => 1,
+        ]);
+
+        GameTopic::create([
+            'game_id' => 2,
+            'topic_id' => 11,
+        ]);
+
+
+        GameTopic::create([
+            'game_id' => 3,
+            'topic_id' =>3,
+        ]);
+
+
+        GameTopic::create([
+            'game_id' => 3,
+            'topic_id' => 1,
+        ]);
+
+
+        GameTopic::create([
+            'game_id' => 3,
+            'topic_id' => 6,
+        ]);
+
+        GameTopic::create([
+            'game_id' => 4,
+            'topic_id' => 7,
         ]);
     }
 }

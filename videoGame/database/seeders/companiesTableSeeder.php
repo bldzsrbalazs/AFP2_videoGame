@@ -14,7 +14,16 @@ class companiesTableSeeder extends Seeder
     public function run(): void
     {
         Company::create([
-            'name' => 'Company 1',
+            'name' => 'Gearbox Software',
+        ]);
+        Company::create([
+            'name' => 'Rockstar Games',
+        ]);
+        Company::create([
+            'name' => 'Riot Games',
+        ]);
+        Company::create([
+            'name' => 'Epic Games',
         ]);
     }
 }
