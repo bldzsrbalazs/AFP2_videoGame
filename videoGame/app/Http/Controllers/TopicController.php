@@ -35,9 +35,11 @@ class TopicController extends Controller
      * Display the specified resource.
      */
     public function show(Topic $topic)
-    {
-        //
-    }
+{
+    $games = $topic->games()->paginate(10);
+    return view("game.index")->with(compact('games'));
+}
+
 
     /**
      * Show the form for editing the specified resource.

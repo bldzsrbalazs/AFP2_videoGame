@@ -12,7 +12,9 @@ class CompanyController extends Controller
      */
     public function index()
     {
-        //
+        $companies = Company::paginate(8);
+        //dd($companies);
+        return view("company.index")->with(compact('companies'));
     }
 
     /**
@@ -20,7 +22,10 @@ class CompanyController extends Controller
      */
     public function create()
     {
-        //
+        if (!auth()->user()->isAdmin()) {
+            return redirect()->route('home');
+        }
+        return view('company.create');
     }
 
     /**
@@ -28,7 +33,15 @@ class CompanyController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $validatedData = $request->validate([
+            'name' => 'required',
+        ]);
+
+        $company = new Company();
+        $company->name = $validatedData['name'];
+        $company->save();
+
+        return redirect()->route('company.create')->with('success', 'Company added successfully.');
     }
 
     /**
@@ -36,7 +49,8 @@ class CompanyController extends Controller
      */
     public function show(Company $company)
     {
-        //
+        $companygames= $company->games()->paginate(8);
+        return view("company.show")->with(compact('companygames'));
     }
 
     /**
@@ -61,5 +75,17 @@ class CompanyController extends Controller
     public function destroy(Company $company)
     {
         //
+    }
+
+    public function storeGame(Request $request)
+    {
+        // ...
+
+        // Vállalatok lekérdezése
+        $companies = Company::all();
+
+        // ...
+
+        return view('game.create')->with(compact('companies'))->with('success', __("Game added successfully"));
     }
 }
