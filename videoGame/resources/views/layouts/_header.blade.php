@@ -20,7 +20,7 @@
             </style>
 
             <ul class="ml-auto nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-                <li><a href="" class="nav-link px-2 text-secondary"> {{ config('app.name') }}</a></li>
+                <li><a href="{{ route("home") }}" class="nav-link px-2 text-secondary"> {{ config('app.name') }}</a></li>
 
                 <!--------------------------------------------------------------------------------------------------------------------------------------->
                 <div class="btn-group nav-link px-2 text-secondary" >
@@ -29,22 +29,22 @@
                         Games
                     </button>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="">See all</a></li>
+                        <li><a class="dropdown-item" href="{{ route("game.all") }}">See all</a></li>
                             @foreach ($topics as $topic)
-                            <li> <a href="{{ route("home") }}" class="dropdown-item">   {{ $topic->name }}</a> </li>
+                            <li> <a href="{{ route("game.topic",$topic->id) }}" class="dropdown-item">   {{ $topic->name }}</a> </li>
                             @endforeach
 
                     </ul>
                 </div>
 
                 <div class="btn-group nav-link px-2 text-secondary">
-                    <a href="{{ route("home") }}" class="btn btn-secondary" >
+                    <a href="{{ route("company.all") }}" class="btn btn-secondary" >
                         Companies
                     </a>
                 </div>
                 @auth
                         <div class="btn-group nav-link px-2 text-secondary">
-                    <a class="btn btn-secondary " href="{{ route("home") }}">
+                    <a class="btn btn-secondary " href="{{ route("game.listPlayedGames") }}">
                         Played games
                     </a>
                 </div>
@@ -68,11 +68,12 @@
                         {{Auth::user()->name}}
                     </button>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item {{ request()->routeIs('profile.show') ? ' active' : '' }}" href="{{route('profile.show',Auth::user()->id)}} ">{{__('Profile')}}</a></li>
-                        <li><a class="dropdown-item {{ request()->routeIs('profile.setting') ? ' active' : '' }}" href="{{route('profile.show',Auth::user()->id)}}">{{__('Settings')}}</a></li>
-                        <li> <a href="{{ route('home') }}" class="dropdown-item {{ request()->routeIs('home') ? ' active' : '' }}">{{__('Add game')}}</a> </li>
-                        <li> <a href="{{ route('home') }}" class="dropdown-item {{ request()->routeIs('home') ? ' active' : '' }}">{{__('Add company')}}</a> </li>
-
+                        <li><a class="dropdown-item {{ request()->routeIs('profile.edit') ? ' active' : '' }}" href="{{route('profile.edit')}} ">{{__('Profile')}}</a></li>
+                        @if(Auth::user()->isAdmin())
+                        <li><a class="dropdown-item {{ request()->routeIs('admin.users') ? ' active' : '' }}" href="{{route('admin.users')}}">{{__('List users')}}</a></li>
+                        <li> <a href="{{ route('game.create') }}" class="dropdown-item {{ request()->routeIs('game.create') ? ' active' : '' }}">{{__('Add game')}}</a> </li>
+                        <li> <a href="{{ route('company.create') }}" class="dropdown-item {{ request()->routeIs('company.create') ? ' active' : '' }}">{{__('Add company')}}</a> </li>
+                        @endif
 
                         <li> <form method="post" action="{{ route('logout') }}"> @csrf <button class="dropdown-item ">{{__('Sign out')}}</button> </form> </li>
                     </ul>
