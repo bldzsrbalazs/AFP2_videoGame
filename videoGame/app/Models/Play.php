@@ -19,4 +19,8 @@ class Play extends Model
     {
         return $this->belongsTo(User::class);
     }
+    public function getGameNameAttribute()
+    {
+        return $this->game->name;
+    }
 }

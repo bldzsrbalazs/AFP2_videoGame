@@ -8,7 +8,7 @@ class GameTopic extends Model
 {
     use HasFactory;
 
-    protected $table = 'game_topics';
+    protected $table = 'game_topic';
     protected $fillable = ['game_id', 'topic_id'];
 
     public function game()

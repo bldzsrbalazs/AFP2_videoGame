@@ -15,6 +15,6 @@ class Topic extends Model
 
     public function games()
     {
-        return $this->belongsToMany(Game::class, 'game_category', 'category_id', 'game_id');
+        return $this->belongsToMany(Game::class, 'game_topic', 'topic_id', 'game_id');
     }
 }

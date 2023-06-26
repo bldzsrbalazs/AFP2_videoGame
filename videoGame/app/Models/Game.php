@@ -8,20 +8,41 @@ class Game extends Model
 {
     use HasFactory;
 
-    protected $fillable = ['name', 'description', 'cover'];
+    protected $fillable = ['name','smalldesc', 'description', 'cover'];
 
     public function users()
     {
         return $this->belongsTo(User::class);
     }
 
-    public function categories()
+    public function topics()
     {
-        return $this->belongsToMany(Topic::class, 'game_category', 'game_id', 'category_id');
+        return $this->belongsToMany(Topic::class, 'game_topic', 'game_id', 'topic_id');
     }
 
     public function company()
     {
         return $this->belongsTo(Company::class);
     }
+
+
+    public function getHasCoverAttribute()
+    {
+        return $this->cover != null;
+    }
+    public function getCoverImageAttribute()
+    {
+        if($this->has_cover)
+        {
+            return asset("upload/img/cover/{$this->cover}");
+        }
+     return "https://via.placeholder.com/300?text=".$this->name;
+
+    }
+    public function played()
+    {
+        return $this->belongsToMany(User::class, 'plays', 'game_id', 'user_id');
+    }
+
+
 }
