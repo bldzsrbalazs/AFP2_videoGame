@@ -67,6 +67,38 @@ Ezt megragadva kérte, hogy készítsünk el egy olyan weblapot, ahol bármikor 
 
 ## 7. Képernyőterv
 
+Főoldalterv:
+  ![Főoldalterv](../Doc/Pictures/fooldal_terv.png)
+
+Regisztrációs oldal terv:
+  ![Regisztrációs oldal terv](../Doc/Pictures/register_terv.png)
+
+Bejelentkezés oldal terv:
+  ![Bejelentkezés oldal terv](../Doc/Pictures/login_terv.png)
+
+Games oldal terv:
+  ![Games oldal terv](../Doc/Pictures/gamesoldal_terv.png)
+
+Games oldal terv:
+  ![Games oldal terv](../Doc/Pictures/gamesoldal_terv.png)
+
+Company oldal terv:
+  ![Company oldal terv](../Doc/Pictures/cegoldal_terv.png)
+
+Játszott játékok oldal terv:
+  ![Játszott játékok oldal terv](../Doc/Pictures/jatszottjatekokoldal_terv.png)
+
+Profil oldal terv:
+  ![Profil oldal terv](../Doc/Pictures/profiloldal_terv.png)
+
+Admin[List users] oldal terv:
+  ![Admin - List users oldal terv](../Doc/Pictures/listusers_terv.png)
+
+Admin[Add game] oldal terv:
+  ![Admin - Add game oldal terv](../Doc/Pictures/addgameoldal.png)
+
+Admin[Add company] oldal terv:
+  ![Admin - Add company oldal terv](../Doc/Pictures/addcompanyoldal_terv.png)
 ## 8. Forgatókönyv
 
  A program nem kíván különösebb telepítési és használati útmutatót. Elég, ha egy grafikus felülettel rendelkező webböngésző fel van telepítve ( alapértelmezett: windows - internet explorer / edge, linux: mozilla, mac - safari ). A felhasználó beüti az oldal címét: xyz.com a böngésző címsorába és rögtön át lesz irányítva az oldalra. Az oldal tartalmát a webszerver szolgáltatja a mögötte lévő adatbázis segítségével. Az oldalra átírányítva a felhasználó megkezdheti a saját órarendjének összeállítását ha regisztrált az oldalra, majd bejelentkezett. Ha a felhasználónak bármi nemű problémája akad az oldal működésével kapcsolatban, akkor a megadott elérhetőségek alapján tudja ezt jelezni az oldal karbantartói felé.
