@@ -95,7 +95,7 @@ Admin[List users] oldal terv:
   ![Admin - List users oldal terv](../Doc/Pictures/listusers_terv.png)
 
 Admin[Add game] oldal terv:
-  ![Admin - Add game oldal terv](../Doc/Pictures/addgameoldal.png)
+  ![Admin - Add game oldal terv](../Doc/Pictures/addgameoldal_terv.png)
 
 Admin[Add company] oldal terv:
   ![Admin - Add company oldal terv](../Doc/Pictures/addcompanyoldal_terv.png)
